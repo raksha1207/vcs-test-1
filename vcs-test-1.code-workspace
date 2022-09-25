@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "vcs-test-1",
+			"path": "../../../vcs-test-1"
+		}
+	],
+	"settings": {}
+}
