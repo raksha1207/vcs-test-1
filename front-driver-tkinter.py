@@ -25,3 +25,21 @@ root = Tk()
 app = Window(root)
 root.wm_title("Tkinter window")
 root.mainloop()
+
+
+
+root = Tk()
+app = Window(root)
+The window class is not standard, we create a Window. This class in itself is pretty basic.
+
+class Window(Frame):
+    def __init__(self, master=None):
+        Frame.__init__(self, master)
+        self.master = master
+Then set the window title and show the window:
+
+# set window title
+root.wm_title("Tkinter window")
+
+# show window
+root.mainloop()
